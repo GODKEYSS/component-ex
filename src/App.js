@@ -1,9 +1,8 @@
-import Counter from "./components/Counter";
+import ParentComponent from "./components/comunicate";
 function App() {
   return (
     <div>
-      <h1>Counter App</h1>
-      <Counter />
+      <ParentComponent />
     </div>
   );
 }
