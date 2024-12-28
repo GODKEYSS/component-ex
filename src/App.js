@@ -1,12 +1,10 @@
-import ItemList from "./components/Item";
-
+import Counter from "./components/Counter";
 function App() {
   return (
     <div>
-      <ItemList items={["Bánh mì", "Hamburger", "Kem"]} />  
-
+      <h1>Counter App</h1>
+      <Counter />
     </div>
   );
 }
-
 export default App;
